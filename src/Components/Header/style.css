@@ -1,0 +1,37 @@
+.main-container {
+    background-color: #181818;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.header .headings {
+    color: #dcdcdc;
+    transition: all ease 0.35s;
+    border: 1.5px solid rgba(200, 200, 200, 0);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.header .headings:hover {
+    /* color: rgb(220, 250, 54); */
+    border: 1.5px solid rgba(200, 200, 200, 1);
+}
+
+.header .logo .website-name {
+    border: none;
+    font-family: "Mukta Mahee";
+}
+
+.header .logo .website-name .name-span {
+    color: rgb(192, 222, 83);
+    font-family: "Abril Fatface";
+    font-size: 22px;
+}
+
+.header .menu .menu-items {
+    margin: auto 15px;
+}

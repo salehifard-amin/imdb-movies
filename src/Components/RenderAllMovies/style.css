@@ -1,0 +1,55 @@
+.list-item .name {
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-item {
+    align-items: start;
+    /* margin-top: auto; */
+    width: 30%;
+    max-width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+.list-items .loading-msg {
+    font-size: 25px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.list-items img {
+    width: 100%;
+    border-radius: 15px;
+    /* vertical-align: baseline; */
+    object-fit: cover;
+    height: 340px;
+    display: block;
+    
+}
+.item-container {
+    position: relative;
+}
+.list-item .additional-info {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(6, 52, 52, 0.817);
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 190px;
+    width: 92%;
+    max-width: 250px;
+    margin: 10px;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+.list-item .additional-info:hover {
+    opacity: 1;
+}
+.list-item .additional-info .movie-details{
+    color: aliceblue;
+    font-size: 18px;
+}
+

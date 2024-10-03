@@ -1,0 +1,64 @@
+.studio-container {
+    width: 100%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px 0px;
+}
+.limited-container {
+    width: 100%;
+    height: 100%;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.studio-bg {
+    height: 70vh;
+    width: 100%;
+    padding: 35px 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #1d1d1d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.studio-bg .film {
+    font-size: 90px;
+    color: black;
+     font-family: "Rowdies";
+     font-weight: 900;
+     transform: translateY(65%);
+     opacity: 0.15;
+     text-shadow: 2px 2px 1px wheat;
+}
+.studio-items {
+    color: azure;
+    font-size: 30px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.studio-items .studio {
+    width: 30%;
+    font-size: 40px;
+    color: black;
+    font-family: "Rowdies";
+    cursor: pointer;
+    transition: color ease 0.25s;
+}
+.studio-items .studio:hover {
+    color: rgba(161, 252, 252, 0.63);
+}
+.first-batch , .remaining{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,28 @@
+.actors-container {
+    background-color: #161515;
+    padding: 20px 5px;
+    border-top: 0.70px solid gray;
+    border-bottom: 0.70px solid gray;
+}
+.topActor-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: blanchedalmond;
+    font-family: Figtree;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.actors {
+    padding: 0px 50px;
+    text-align: center;
+}
+.actor-items img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 3px solid rgb(196, 196, 196);
+}
+.actor-items .actors-names {
+    font-size: 22px;
+    color: azure;
+}
